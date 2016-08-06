@@ -1,0 +1,218 @@
+*{
+box-sizing: border-box;	
+}
+
+h1{
+text-align: center;
+font-family: Helvetica;
+color:  #FF1493;
+background-color: #FFFFE0;
+border:  2px solid #B8860B	;
+width: 50%;
+margin-bottom: 35px;
+margin-top: 20px;
+position: relative;
+left: 25%;
+}
+.all{
+position: relative;
+}
+.yab{
+width:95%;
+margin-right: 2.5%;
+margin-left: 2.5%;
+margin-bottom: 10px;
+background-color:  #AFEEEE;
+border: 1px solid black;
+float: left;
+height: 300px;
+}
+.txt{
+width: 90%;
+margin:auto;
+margin-top: 15px;
+font-style: italic;
+}
+.im{
+width:45%;
+margin-left: 5%;
+margin-right: 2%;
+float: left;
+margin-bottom: 2%;
+margin-top: 15px;
+border: 1px solid black;
+}
+.tablo1{
+background-color:  #00008B;
+color:white;
+font-family: Arial;
+width: 35%;
+right: 100%;
+position: absolute;
+left: 62.5%;
+}
+
+.tablo2{
+background-color:   #800080;
+color:white;
+font-family: Arial;
+width: 35%;
+position: absolute;
+left: 62.5%;
+}
+
+
+.tablo3{
+background-color:  #2F4F4F;
+color:white;
+font-family: Arial;
+width: 35%;
+position: absolute;
+left: 62.5%;
+}
+
+
+
+
+@media(min-width: 768px) and (max-width: 991px){
+.col-me-1 , .col-me-2 , .col-me-3 , .col-me-4 , .col-me-5 , .col-me-6 , .col-me-7 , .col-me-8 , .col-me-9 , .col-me-10 , .col-me-11 , .col-me-12{
+	margin-left: 0;
+	margin-right: 0;
+}
+.titi3{
+	height: 240px;
+}
+.im{
+	margin-top: 20px;
+}
+.txt{
+	margin-top: 20px;
+}
+.row{
+  margin:auto;
+}
+.tablo1{
+    position: absolute;
+   left: 15%;
+}
+.tablo2{
+   position: absolute;	
+   left:65% ;
+}
+.tablo3{
+	position: absolute;
+	left: 65%;
+}
+.col-me-1 {
+	width: 8.33%;
+}
+.col-me-2 {
+	width: 16.66%;
+}
+.col-me-3 {
+	width: 25%;
+}
+.col-me-4 {
+	width: 33%;
+}
+.col-me-5 {
+	width: 41.66%;
+}
+.col-me-6 {
+	width: 50%;
+}
+.col-me-7 {
+	width: 58.33%;
+}
+.col-me-8 {
+	width: 66.66%;
+}
+.col-me-9 {
+	width: 74.99%;
+}
+.col-me-10 {
+	width: 83.33%;
+}
+.col-me-11 {
+	width: 91.66%;
+}
+.col-me-12 {
+	width: 100%;
+}
+
+}
+
+
+@media(min-width: 992px){
+.im{
+	 margin-top: 20px;
+}
+.txt{
+	margin-top: 20px;
+}
+.yab{
+	margin-right: 0;
+	margin-left: 0;
+	border: 4px solid black;
+}
+.tablo1{
+width: 18%;
+position: absolute;
+left: 14.8%;
+}
+.tablo2{
+width: 18%;
+position: absolute;
+left: 47.8%;
+}
+.yab{
+	height: 290px;
+}
+.tablo3{
+width: 18%;
+position: absolute;
+left: 80.8%;
+}
+.col-la-1 {
+	width: 8.33%;
+}
+.col-la-2 {
+	width: 16.66%;
+}
+.col-la-3 {
+	width: 25%;
+}
+.col-la-4 {
+	width: 33%;
+}
+.col-la-5 {
+	width: 41.66%;
+}
+.col-la-6 {
+	width: 50%;
+}
+.col-la-7 {
+	width: 58.33%;
+}
+.col-la-8 {
+	width: 66.66%;
+}
+.col-la-9 {
+	width: 74.99%;
+}
+.col-la-10 {
+	width: 83.33%;
+}
+.col-la-11 {
+	width: 91.66%;
+}
+.col-la-12 {
+	width: 100%;
+}
+
+}
+
+
+
+
+
